@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    
+}
+.image{
+    height: 200px;
+    width: 215px;
+    border: 5px solid white;
+    position: relative;
+    left: 44%;
+}
+.center{
+    text-align: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+}
+h2{
+    color: white;
+    font-family: "Libre Baskerville", serif;
+}
+#first{
+    color: white;
+    padding: 10px;
+}
+#second{
+    color: white;
+    padding: 10px;
+}
+#third{
+    color: white;
+    padding: 10px;
+}
+#fourth{
+    color: white;
+    padding: 10px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
