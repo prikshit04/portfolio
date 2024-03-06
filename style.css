@@ -8,13 +8,11 @@ h1{
     
 }
 .image{
-    height: 200px;
-    width: 215px;
-    border: 5px solid white;
-    position: relative;
-    left: 44%;
+    display: flex;
+    justify-content: center;
 }
-.center{
+    
+.About{
     text-align: center;
     color: white;
     font-family: "Libre Baskerville", serif;
@@ -23,23 +21,26 @@ h2{
     color: white;
     font-family: "Libre Baskerville", serif;
 }
-#first{
+#white{
     color: white;
     padding: 10px;
 }
-#second{
-    color: white;
-    padding: 10px;
+.two{
+    display: flex;
+    justify-content: center;    
 }
-#third{
-    color: white;
+.white li{
+    display: flex;
+    list-style: none;
     padding: 10px;
-}
-#fourth{
-    color: white;
-    padding: 10px;
+   
 }
 footer{
     color: white;
     text-align: center;
+}
+@media (max-width: 480px){
+    body{
+        background-color: midnightblue;
+    }
 }
