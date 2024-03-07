@@ -7,11 +7,19 @@ h1{
     font-family: "Libre Baskerville", serif;
     
 }
-.image{
+.user-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: auto;
+
 }
-    
+.user-profile{
+    background-image: url(./IMG_1009.jpg);
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+} 
 .About{
     text-align: center;
     color: white;
