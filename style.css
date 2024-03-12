@@ -1,54 +1,70 @@
 body{
-    background-color: black;
+    background-color: white;
 }
-h1{
-    color: white;
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    
-}
-.user-container{
+.zero{
+    background-color: #c1e4e4;
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
     align-items: center;
-    height: auto;
+    height: 100vh;
+}
+.one{
+    padding: 20px;
 
 }
-.user-profile{
-    background-image: url(./IMG_1009.jpg);
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-} 
-.About{
-    text-align: center;
-    color: white;
-    font-family: "Libre Baskerville", serif;
-}
-h2{
-    color: white;
-    font-family: "Libre Baskerville", serif;
-}
-#white{
-    color: white;
-    padding: 10px;
-}
 .two{
-    display: flex;
-    justify-content: center;    
+    padding: 100px;
 }
-.white li{
+.my-name{
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;
+    letter-spacing: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.about{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.profile{
+    background-color: white;
+    padding-top: 100px;
+}
+h1{
+    color: #66bfbf;
+    
+}
+h3{
+    text-align: center;
+    color: #66bfbf;
+}
+.About-container{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Education{
+    color: #66bfbf;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.Skills{
+    color: #66bfbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    color: black;
     list-style: none;
-    padding: 10px;
-   
-}
-footer{
-    color: white;
     text-align: center;
 }
-@media (max-width: 480px){
-    body{
-        background-color: seagreen;
-    }
+.Skills ul li {
+    text-align: justify;
+    letter-spacing: 10px;
+    font-size: x-large;
 }
